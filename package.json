@@ -1,0 +1,11 @@
+{
+  "name": "fundamentos-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:leticiamantovani/typescript-fundamentals-.git",
+  "author": "Leticia Mantovani <leticiamantovani159@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
