@@ -2,6 +2,17 @@
 # yarn lockfile v1
 
 
+"@types/express@types/express":
+  version "4.14.0"
+  resolved "https://codeload.github.com/types/express/tar.gz/7670cf1cbce96b3159e3ff04a253926b34111220"
+  dependencies:
+    "@types/serve-static" "github:types/npm-serve-static#c1f96843c8b96a37f6c534cb1dadb48f5329e4e0"
+    path-to-regexp "github:pillarjs/path-to-regexp#ec285ed3500aed455df59e3b8b07f473412918a4"
+
+"@types/serve-static@github:types/npm-serve-static#c1f96843c8b96a37f6c534cb1dadb48f5329e4e0":
+  version "1.11.1"
+  resolved "https://codeload.github.com/types/npm-serve-static/tar.gz/c1f96843c8b96a37f6c534cb1dadb48f5329e4e0"
+
 accepts@~1.3.7:
   version "1.3.7"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.7.tgz#531bc726517a3b2b41f850021c6cc15eaab507cd"
@@ -182,6 +193,11 @@ ipaddr.js@1.9.1:
   resolved "https://registry.yarnpkg.com/ipaddr.js/-/ipaddr.js-1.9.1.tgz#bff38543eeb8984825079ff3a2a8e6cbd46781b3"
   integrity sha512-0KI/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh/hZykN8KpmMf7uYwPW3R+akZ6R/w18ZlXSHBYXiYUPO3g==
 
+isarray@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/isarray/-/isarray-0.0.1.tgz#8a18acfca9a8f4177e09abfc6038939b05d1eedf"
+  integrity sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -245,6 +261,12 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+
+"path-to-regexp@github:pillarjs/path-to-regexp#ec285ed3500aed455df59e3b8b07f473412918a4":
+  version "1.5.3"
+  resolved "https://codeload.github.com/pillarjs/path-to-regexp/tar.gz/ec285ed3500aed455df59e3b8b07f473412918a4"
+  dependencies:
+    isarray "0.0.1"
 
 proxy-addr@~2.0.7:
   version "2.0.7"
@@ -335,6 +357,11 @@ type-is@~1.6.18:
   dependencies:
     media-typer "0.3.0"
     mime-types "~2.1.24"
+
+typescript@^4.5.4:
+  version "4.5.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.4.tgz#a17d3a0263bf5c8723b9c52f43c5084edf13c2e8"
+  integrity sha512-VgYs2A2QIRuGphtzFV7aQJduJ2gyfTljngLzjpfW9FoYZF6xuw1W0vW9ghCKLfcWrCFxK81CSGRAvS1pn4fIUg==
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
